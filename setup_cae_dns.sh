@@ -90,5 +90,7 @@ function addCustomDNSSuffix() {
 }
 
 # Create a self-signed certificate use Custom policy
+echo "Create a self-signed certificate use Custom policy"
 createSelfSignedCertWithSubjectName
+echo "Add DNS Suffix and Bind Cert to CAE"
 addCustomDNSSuffix
